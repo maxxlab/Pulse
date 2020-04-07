@@ -1,0 +1,10 @@
+@media ( max-width: 991px){
+    .container{
+        padding: 0 15px;
+    }
+    .advantages{
+        &__item {
+            margin: 0 15px;
+        }
+    }
+}

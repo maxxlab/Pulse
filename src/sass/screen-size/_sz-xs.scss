@@ -1,0 +1,25 @@
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__contacts {
+            margin-top: 30px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader-disable {
+            display: none;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        .button_main {
+            width: 280px;
+        }
+    }
+}
