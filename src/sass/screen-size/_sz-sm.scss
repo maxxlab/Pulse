@@ -6,9 +6,6 @@
             &__official-disable {
                 display: none;
             }
-            &__contacts {
-                
-            }
         }
         &__wrapper {
             display: block;
@@ -54,5 +51,15 @@
                 margin-top: 0;
             }
         }
+    }
+    .consultation {
+        .title, &__descr {
+           text-align: center;
+        }
+        
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
     }
 }

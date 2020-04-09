@@ -22,4 +22,20 @@
             width: 280px;
         }
     }
+    .consultation {
+        min-height: 580px;
+        padding: 70px 0 70px 0;
+        .title {
+            font-size: 30px;
+        }
+        &__descr {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .feed-form {
+        width: 290px;
+    }
 }
