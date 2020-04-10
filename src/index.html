@@ -7,11 +7,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -52,9 +53,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <div class="title advantages__title">НАШИ ПРЕИМУЩЕСТВА</div>
             <div class="advantages__wrapper">
@@ -84,24 +85,45 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию <br>
                 по подбору пульсометра</h2>
             <div class="consultation__descr">Просто заполните форму заявки <br>
                 и мы перезвоним вам в течении 10 минут</div>
             <form action="#" class="feed-form">
-              
-                    <input name="name" required type="text" placeholder="Ваше имя">
-                    <input name="phone" required type="number" placeholder="Ваш телефон">
-                    <input name="email" required type="email" placeholder="Ваш E-mail">
 
-                    <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
-                    <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш E-mail">
+
+                <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
-    </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/slide_1.png" alt="">
+                </div>
+                <div>
+                    <img src="img/slide_2.png" alt="">
+                </div>
+                <div>
+                    <img src="img/slide_3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

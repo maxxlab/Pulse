@@ -62,4 +62,13 @@
         margin: 0 auto;
         margin-top: 36px;
     }
+    .carousel {
+        &__inner {
+            img {
+                width: 100%;
+            }
+            width: 100%;
+
+        }
+    }
 }
