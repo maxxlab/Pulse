@@ -70,4 +70,12 @@
             width: 100%;
         }
     }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+    }
 }
