@@ -1,4 +1,7 @@
 @media (max-width: 575px) {
+    .title {
+        font-size: 26px;
+    }
     .header {
         flex-direction: column;
         &__contacts {
@@ -30,6 +33,22 @@
         }
         &__descr {
             display: none;
+        }
+    }
+    .reviews {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+        &__name, &__subtitle{
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
         }
     }
 }
