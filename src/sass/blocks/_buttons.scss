@@ -11,6 +11,8 @@
     transition: 0.5s all;
     &:hover {
         font-size: 14px;
+        background: #ffffff;
+        color: $main-color;
     }
     &_main {
         margin-top: 67px;
@@ -35,6 +37,7 @@
         font-size: 14px;
         &:hover {
             font-size: 16px;
+            border: 1px solid $main-color;
         }
     }
 }
