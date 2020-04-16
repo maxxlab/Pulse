@@ -13,6 +13,13 @@
     &__item {
         text-align: center;
         width: 247px;
+        &_animated {
+            animation: heartbeat 2s normal infinite;
+            
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__subheader {
         font-size: 18px;
